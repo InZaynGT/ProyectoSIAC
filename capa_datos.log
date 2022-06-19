@@ -1,0 +1,215 @@
+01:20:04 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback column "nit" does not exist
+LINE 1: SELECT *  FROM oficina ORDER BY NIT
+                                        ^
+ <class 'psycopg2.errors.UndefinedColumn'> <traceback object at 0x000002572CCAF440>
+01:22:14 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback 'Oficina' object has no attribute '_dpi' <class 'AttributeError'> <traceback object at 0x000002A3A21CD040>
+01:37:16 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback column "nit" does not exist
+LINE 1: SELECT *  FROM oficina ORDER BY NIT
+                                        ^
+ <class 'psycopg2.errors.UndefinedColumn'> <traceback object at 0x000001C207BBD140>
+08:29:06 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback relation "oficina" does not exist
+LINE 1: SELECT * FROM oficina ORDER BY NIT
+                      ^
+ <class 'psycopg2.errors.UndefinedTable'> <traceback object at 0x0000017C6A3AD080>
+08:34:15 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback 'Oficina' object has no attribute '_dpi' <class 'AttributeError'> <traceback object at 0x000001A3BF5C8F00>
+09:02:07 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback relation "oficina" does not exist
+LINE 1: UPDATE oficina SET Nombres = 'Eugenia Elizabeth', Apellidos ...
+               ^
+ <class 'psycopg2.errors.UndefinedTable'> <traceback object at 0x0000020041938E80>
+09:05:09 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback syntax error at or near "="
+LINE 1: DELETE from oficina3 no_id = 1721239
+                                   ^
+ <class 'psycopg2.errors.SyntaxError'> <traceback object at 0x0000027510E98F00>
+09:05:36 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback operator does not exist: character varying = integer
+LINE 1: DELETE from oficina3 WHERE no_id = 1721239
+                                         ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+ <class 'psycopg2.errors.UndefinedFunction'> <traceback object at 0x0000022611058F80>
+01:28:28 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback invalid input syntax for type date: "28 de febrero"
+LINE 1: ...i, imagen) VALUES('1289371', 'Carlos', 'Miranda', '28 de feb...
+                                                             ^
+ <class 'psycopg2.errors.InvalidDatetimeFormat'> <traceback object at 0x0000027A2F82C500>
+09:42:10 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback column "telefono" of relation "oficina3" does not exist
+LINE 1: ...O oficina3(no_id, nombres, apellidos, fecha, dpi, Telefono, ...
+                                                             ^
+ <class 'psycopg2.errors.UndefinedColumn'> <traceback object at 0x00000238B716C300>
+09:44:04 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback column "telefono" of relation "oficina3" does not exist
+LINE 1: ...a3(no_id, nombres, apellidos, fecha, dpi, imagen, Telefono, ...
+                                                             ^
+ <class 'psycopg2.errors.UndefinedColumn'> <traceback object at 0x000002416AB7C5C0>
+09:45:23 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback relation "usuario" does not exist
+LINE 1: SELECT * from usuario
+                      ^
+ <class 'psycopg2.errors.UndefinedTable'> <traceback object at 0x0000021890F24E40>
+09:45:54 AM: DEBUG [CursorDelPool.py:28] [('1287973', 'Carlos', 'Miranda', datetime.date(2002, 2, 28), '3158144381301', <memory at 0x00000270199C3400>, None, None)]
+09:50:25 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback column "telefono" of relation "oficina3" does not exist
+LINE 1: ...O oficina3(no_id, nombres, apellidos, fecha, dpi, Telefono, ...
+                                                             ^
+ <class 'psycopg2.errors.UndefinedColumn'> <traceback object at 0x00000157521FC500>
+01:27:00 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback 'Oficina' object has no attribute '_dpi' <class 'AttributeError'> <traceback object at 0x000001F39C7E5CC0>
+01:27:43 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback 'Oficina' object has no attribute '_dpi' <class 'AttributeError'> <traceback object at 0x00000157178C6C40>
+01:28:37 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback 'Oficina' object has no attribute 'DPI' <class 'AttributeError'> <traceback object at 0x000001EACF4C5D80>
+01:38:36 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback 'Oficina' object has no attribute '_dpi' <class 'AttributeError'> <traceback object at 0x000001A6785BDF00>
+04:56:20 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback 'Oficina' object has no attribute '_dpi' <class 'AttributeError'> <traceback object at 0x000001DE181E5D00>
+04:57:04 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QLineEdit' <class 'psycopg2.ProgrammingError'> <traceback object at 0x000001E20AC62400>
+05:00:28 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback invalid input syntax for type date: "1/Enero/1930"
+LINE 1: ...gen, fecha_dpi) VALUES('12312', '1231', '312311', '1/Enero/1...
+                                                             ^
+ <class 'psycopg2.errors.InvalidDatetimeFormat'> <traceback object at 0x000002501D7190C0>
+05:07:20 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback invalid input syntax for type date: "imagen.jpg"
+LINE 1: ...Edit object at 0x000001ED5994C9D0>', '1/01/2021', 'imagen.jp...
+                                                             ^
+ <class 'psycopg2.errors.InvalidDatetimeFormat'> <traceback object at 0x000001ED5995AE80>
+05:07:41 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback invalid input syntax for type date: "imagen.jpg"
+LINE 1: ...Edit object at 0x000002905F0FC9D0>', '1/01/2021', 'imagen.jp...
+                                                             ^
+ <class 'psycopg2.errors.InvalidDatetimeFormat'> <traceback object at 0x000002905F10C040>
+07:49:10 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback duplicate key value violates unique constraint "oficina3_pkey"
+DETAIL:  Key (no_id)=() already exists.
+ <class 'psycopg2.errors.UniqueViolation'> <traceback object at 0x0000026052F8AD00>
+08:19:38 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback duplicate key value violates unique constraint "oficina3_pkey"
+DETAIL:  Key (no_id)=() already exists.
+ <class 'psycopg2.errors.UniqueViolation'> <traceback object at 0x0000025A10F3C040>
+10:19:58 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QByteArray' <class 'psycopg2.ProgrammingError'> <traceback object at 0x0000018442A68B00>
+10:30:07 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QByteArray' <class 'psycopg2.ProgrammingError'> <traceback object at 0x000002A787605600>
+06:18:12 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QByteArray' <class 'psycopg2.ProgrammingError'> <traceback object at 0x000001D4F97FC340>
+06:18:49 PM: DEBUG [CursorDelPool.py:28] [('123123', 'Carlos Andres', 'Miranda Mendez', datetime.date(2002, 2, 28), '3158 14438 1301', '58385781', 'Zona 9', <memory at 0x00000122A7793400>, None), ('12737', 'Carlos', 'Miranda', datetime.date(2002, 2, 28), '31094812', '23419741', 'Zona 9', <memory at 0x00000122A7793940>, None), ('32323', 'Carlos Miranda', 'Miranda', datetime.date(2002, 2, 28), '12314', '123123', 'Zona 9', <memory at 0x00000122A7793340>, datetime.date(1980, 1, 31)), ('123123324', '123123453', '345', datetime.date(1930, 1, 1), '<PyQt5.QtWidgets.QLineEdit object at 0x0000014DDF45C700>', '<PyQt5.QtWidgets.QLineEdit object at 0x0000014DDF45C940>', '<PyQt5.QtWidgets.QLineEdit object at 0x0000014DDF45C9D0>', <memory at 0x00000122A7793A00>, None), ('1450443-K', 'Eugenia Elizabeth', 'Miranda Mendez', datetime.date(1980, 1, 31), '<PyQt5.QtWidgets.QLineEdit object at 0x000001FB3D11C700>', '<PyQt5.QtWidgets.QLineEdit object at 0x000001FB3D11C940>', '<PyQt5.QtWidgets.QLineEdit object at 0x000001FB3D11C9D0>', <memory at 0x00000122A7793AC0>, None), ('1445913012', 'Carlos', 'Miranda', datetime.date(1935, 5, 28), '<PyQt5.QtWidgets.QLineEdit object at 0x000001BC8F6AC700>', '<PyQt5.QtWidgets.QLineEdit object at 0x000001BC8F6AC940>', '<PyQt5.QtWidgets.QLineEdit object at 0x000001BC8F6AC9D0>', <memory at 0x00000122A7793B80>, None), ("1450443'K", 'Carlos Andres', 'Miranda Mendez', datetime.date(2002, 2, 28), '3158 14438 1301', '58385781', 'Zona 9', <memory at 0x00000122A7793C40>, None), ('', '', '', datetime.date(1930, 1, 1), '', '', '', <memory at 0x00000122A7793D00>, None), ('asdfasd', '', '', datetime.date(1930, 1, 1), '', '', '', <memory at 0x00000122A7793DC0>, None), ('dasdacasacs', '', '', datetime.date(1930, 1, 1), '', '', '', <memory at 0x00000122A7793E80>, None), ('asdfasfea', '', '', datetime.date(1930, 1, 1), '', '', '', None, datetime.date(2021, 1, 1)), ('asndf', 'dfasdf', 'asdf', datetime.date(1930, 1, 1), 'asdfasdf', '', '', <memory at 0x00000122A7793F40>, datetime.date(2021, 1, 1)), ('sadfasd', 'asdfasd', 'asdfasd', datetime.date(1930, 1, 1), 'asdfas', 'asdf', 'asdfasdf', <memory at 0x00000122A7A79040>, datetime.date(2021, 1, 1)), ('sadfasdf', 'dfasdf', 'sadfasdf', datetime.date(1930, 1, 1), 'asdfsadf', 'asdfasdf', 'asdfasdf', <memory at 0x00000122A7A79100>, datetime.date(2021, 1, 1)), ('12312314', '12414', '234234', datetime.date(1930, 1, 1), '234234234', '234234', '234234', <memory at 0x00000122A7A791C0>, datetime.date(2021, 1, 1))]
+06:19:05 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QByteArray' <class 'psycopg2.ProgrammingError'> <traceback object at 0x000002338D9A8EC0>
+11:10:11 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QByteArray' <class 'psycopg2.ProgrammingError'> <traceback object at 0x0000023D31078E80>
+11:25:55 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QByteArray' <class 'psycopg2.ProgrammingError'> <traceback object at 0x000002BCF6CA8C40>
+12:27:59 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QByteArray' <class 'psycopg2.ProgrammingError'> <traceback object at 0x000001E236CF8BC0>
+12:28:23 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QByteArray' <class 'psycopg2.ProgrammingError'> <traceback object at 0x0000020B74C28AC0>
+01:51:47 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QByteArray' <class 'psycopg2.ProgrammingError'> <traceback object at 0x000001D1AD2B8E00>
+01:52:13 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QByteArray' <class 'psycopg2.ProgrammingError'> <traceback object at 0x00000159CABE8D80>
+01:53:08 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QPixmap' <class 'psycopg2.ProgrammingError'> <traceback object at 0x00000206E3A96740>
+02:07:48 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QPixmap' <class 'psycopg2.ProgrammingError'> <traceback object at 0x00000210867C8E40>
+02:08:10 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QBuffer' <class 'psycopg2.ProgrammingError'> <traceback object at 0x0000020C23B48C80>
+02:16:51 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QByteArray' <class 'psycopg2.ProgrammingError'> <traceback object at 0x000002151CFC8D80>
+02:23:48 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QByteArray' <class 'psycopg2.ProgrammingError'> <traceback object at 0x00000191A81D8E40>
+02:51:50 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QByteArray' <class 'psycopg2.ProgrammingError'> <traceback object at 0x000002E8FD509A00>
+02:51:59 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QByteArray' <class 'psycopg2.ProgrammingError'> <traceback object at 0x000001ADC9E68B00>
+03:09:13 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QPixmap' <class 'psycopg2.ProgrammingError'> <traceback object at 0x000001846BF26500>
+03:10:39 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QByteArray' <class 'psycopg2.ProgrammingError'> <traceback object at 0x000001542BA98BC0>
+11:37:03 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QByteArray' <class 'psycopg2.ProgrammingError'> <traceback object at 0x0000019F5AE78D00>
+11:37:38 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback column "imagen" is of type bytea but expression is of type boolean
+LINE 1: ...ALUES('', '', '', '1/01/1930','', '', '', '1/01/2021', true)
+                                                                  ^
+HINT:  You will need to rewrite or cast the expression.
+ <class 'psycopg2.errors.DatatypeMismatch'> <traceback object at 0x000001F55FBEB100>
+11:38:27 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QByteArray' <class 'psycopg2.ProgrammingError'> <traceback object at 0x0000022EDB5E8B40>
+11:39:11 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QByteArray' <class 'psycopg2.ProgrammingError'> <traceback object at 0x0000019B656E8DC0>
+11:41:19 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QByteArray' <class 'psycopg2.ProgrammingError'> <traceback object at 0x0000024CB24A8E40>
+11:49:24 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QByteArray' <class 'psycopg2.ProgrammingError'> <traceback object at 0x000001DAA7F48B40>
+11:54:37 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QPixmap' <class 'psycopg2.ProgrammingError'> <traceback object at 0x0000019F08C18BC0>
+12:03:12 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback can't adapt type 'QByteArray' <class 'psycopg2.ProgrammingError'> <traceback object at 0x000001F3C3DAB0C0>
+01:49:03 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback duplicate key value violates unique constraint "oficina3_pkey"
+DETAIL:  Key (no_id)=() already exists.
+ <class 'psycopg2.errors.UniqueViolation'> <traceback object at 0x000002625586B0C0>
+09:16:07 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback duplicate key value violates unique constraint "empresas_pkey"
+DETAIL:  Key (no_empresa)=(1) already exists.
+ <class 'psycopg2.errors.UniqueViolation'> <traceback object at 0x0000029D28BB3500>
+11:32:03 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback value too long for type character varying(15)
+ <class 'psycopg2.errors.StringDataRightTruncation'> <traceback object at 0x000001297F932300>
+04:53:49 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback duplicate key value violates unique constraint "oficina3_pkey"
+DETAIL:  Key (no_id)=(123123123123) already exists.
+ <class 'psycopg2.errors.UniqueViolation'> <traceback object at 0x000002DD5EB33700>
+09:29:53 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback string index out of range <class 'IndexError'> <traceback object at 0x0000018C3F972180>
+09:51:16 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback string index out of range <class 'IndexError'> <traceback object at 0x00000214FC5988C0>
+09:53:50 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback not all arguments converted during string formatting <class 'TypeError'> <traceback object at 0x0000023AD5C90BC0>
+09:54:11 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback not all arguments converted during string formatting <class 'TypeError'> <traceback object at 0x0000019DA9A807C0>
+09:54:36 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback not all arguments converted during string formatting <class 'TypeError'> <traceback object at 0x000001E662180BC0>
+10:51:41 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback not all arguments converted during string formatting <class 'TypeError'> <traceback object at 0x000001A8AB620BC0>
+10:59:56 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback not all arguments converted during string formatting <class 'TypeError'> <traceback object at 0x00000294CFC40B80>
+11:06:58 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback not all arguments converted during string formatting <class 'TypeError'> <traceback object at 0x00000195B5930DC0>
+11:26:03 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback 'int' object does not support indexing <class 'TypeError'> <traceback object at 0x00000224FF890780>
+11:26:19 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback not all arguments converted during string formatting <class 'TypeError'> <traceback object at 0x0000027D06450AC0>
+11:28:41 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback 'int' object does not support indexing <class 'TypeError'> <traceback object at 0x000001AA4C4E1580>
+11:31:44 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback not all arguments converted during string formatting <class 'TypeError'> <traceback object at 0x00000264531B0C40>
+11:35:35 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback not all arguments converted during string formatting <class 'TypeError'> <traceback object at 0x000001A5FAFA0BC0>
+04:43:52 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback tuple index out of range <class 'IndexError'> <traceback object at 0x000002616FF90F40>
+04:44:55 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback tuple index out of range <class 'IndexError'> <traceback object at 0x0000027A68400300>
+04:45:22 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback tuple index out of range <class 'IndexError'> <traceback object at 0x00000289FF060240>
+04:46:55 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback tuple index out of range <class 'IndexError'> <traceback object at 0x00000251393E9600>
+04:51:57 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback tuple index out of range <class 'IndexError'> <traceback object at 0x00000247EABD6040>
+09:30:52 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback tuple index out of range <class 'IndexError'> <traceback object at 0x000001610BC548C0>
+10:19:44 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback update or delete on table "oficina3" violates foreign key constraint "fk_empresa" on table "empresas"
+DETAIL:  Key (no_id)=(21112005) is still referenced from table "empresas".
+ <class 'psycopg2.errors.ForeignKeyViolation'> <traceback object at 0x0000022FC5A58300>
+10:21:51 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback syntax error at or near ","
+LINE 1: DELETE FROM oficina3, empresas WHERE no_id = '21112005'
+                            ^
+ <class 'psycopg2.errors.SyntaxError'> <traceback object at 0x000002C3A85E83C0>
+11:18:40 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback tuple index out of range <class 'IndexError'> <traceback object at 0x0000015102F89540>
+11:19:16 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback tuple index out of range <class 'IndexError'> <traceback object at 0x0000027690949680>
+11:21:52 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback syntax error at or near "WHERE"
+LINE 1: UPDATE oficina3 SET no_id =  WHERE no_id = '21112005';UPDATE...
+                                     ^
+ <class 'psycopg2.errors.SyntaxError'> <traceback object at 0x0000016C59B097C0>
+11:27:55 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback syntax error at or near "WHERE"
+LINE 1: UPDATE oficina3 SET no_id =  WHERE no_id = '21112005';UPDATE...
+                                     ^
+ <class 'psycopg2.errors.SyntaxError'> <traceback object at 0x0000016C59B09F80>
+11:29:53 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback syntax error at or near "WHERE"
+LINE 1: UPDATE oficina3 SET no_id =  WHERE no_id = '21112005';UPDATE...
+                                     ^
+ <class 'psycopg2.errors.SyntaxError'> <traceback object at 0x00000292E15895C0>
+11:30:56 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback zero-length delimited identifier at or near """"
+LINE 1: UPDATE oficina3 SET no_id = "" WHERE no_id = '21112005';UPDA...
+                                    ^
+ <class 'psycopg2.errors.SyntaxError'> <traceback object at 0x00000205FBE1F880>
+11:31:13 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback column "null" does not exist
+LINE 1: UPDATE oficina3 SET no_id = "null" WHERE no_id = '21112005';...
+                                    ^
+ <class 'psycopg2.errors.UndefinedColumn'> <traceback object at 0x000001AE1C019340>
+11:49:22 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback column "no_empresa" does not exist
+LINE 1: ...M empresas WHERE no_id = '3158144381301' ORDER BY no_empresa...
+                                                             ^
+ <class 'psycopg2.errors.UndefinedColumn'> <traceback object at 0x00000220DE6B8700>
+11:53:15 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback duplicate key value violates unique constraint "empresas_pkey"
+DETAIL:  Key (no_id)=(3158144381301) already exists.
+ <class 'psycopg2.errors.UniqueViolation'> <traceback object at 0x000002127227A1C0>
+11:54:30 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback column "descripcion" does not exist
+LINE 1: SELECT nombre, descripcion FROM empresas WHERE no_id = '3158...
+                       ^
+ <class 'psycopg2.errors.UndefinedColumn'> <traceback object at 0x00000273F7DF0980>
+04:09:09 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback date/time field value out of range: "30/02/2030"
+LINE 1: ...onia Villas del Magisterio Zona 9 Huehuetenango', '30/02/203...
+                                                             ^
+ <class 'psycopg2.errors.DatetimeFieldOverflow'> <traceback object at 0x000002449A96DFC0>
+06:45:09 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback duplicate key value violates unique constraint "oficina3_pkey"
+DETAIL:  Key (no_id)=(3158144381301) already exists.
+ <class 'psycopg2.errors.UniqueViolation'> <traceback object at 0x00000223BFDBD640>
+06:50:18 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback duplicate key value violates unique constraint "oficina3_pkey"
+DETAIL:  Key (no_id)=(3158144381301) already exists.
+ <class 'psycopg2.errors.UniqueViolation'> <traceback object at 0x000001C2A737E680>
+06:53:27 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback duplicate key value violates unique constraint "oficina3_pkey"
+DETAIL:  Key (no_id)=(3158144381301) already exists.
+ <class 'psycopg2.errors.UniqueViolation'> <traceback object at 0x00000272B711B9C0>
+06:54:57 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback duplicate key value violates unique constraint "oficina3_pkey"
+DETAIL:  Key (no_id)=(3158144381301) already exists.
+ <class 'psycopg2.errors.UniqueViolation'> <traceback object at 0x0000019453CA0480>
+06:59:30 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback duplicate key value violates unique constraint "oficina3_pkey"
+DETAIL:  Key (no_id)=(3158144381301) already exists.
+ <class 'psycopg2.errors.UniqueViolation'> <traceback object at 0x0000019AA7849E80>
+02:50:53 PM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback duplicate key value violates unique constraint "oficina3_pkey"
+DETAIL:  Key (no_id)=(123456789) already exists.
+ <class 'psycopg2.errors.UniqueViolation'> <traceback object at 0x00000232F4492800>
+10:49:27 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback value too long for type character varying(15)
+ <class 'psycopg2.errors.StringDataRightTruncation'> <traceback object at 0x0000026FB97A1080>
+10:51:53 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback duplicate key value violates unique constraint "oficina3_pkey"
+DETAIL:  Key (no_id)=(3158144381301) already exists.
+ <class 'psycopg2.errors.UniqueViolation'> <traceback object at 0x0000026FB97A8B00>
+11:20:33 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback tuple index out of range <class 'IndexError'> <traceback object at 0x000001E0FCBE1900>
+11:21:06 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback tuple index out of range <class 'IndexError'> <traceback object at 0x000001F89D531BC0>
+11:22:02 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback tuple index out of range <class 'IndexError'> <traceback object at 0x0000027CCE4A1B00>
+02:48:56 PM: DEBUG [CursorDelPool.py:28] [('123456789', 'Daniel', 'Miranda', datetime.date(1987, 12, 3), '123456789', '30394714', 'Xela ', datetime.date(2022, 4, 19), <memory at 0x0000025853764400>, 15, 'daniel123'), ('3158144381302', 'Yan Carlos', 'Hoyos', datetime.date(2002, 5, 17), '3158144381301', '4813941312', 'Zona 9', datetime.date(2022, 4, 29), <memory at 0x0000025853764940>, 19, 'casa123'), ('3158144381301', 'Prueba SIAC', 'Administracion y Contabilidad', datetime.date(2002, 2, 28), '3158144381301', '58385781', 'Zona 9', datetime.date(2030, 10, 30), <memory at 0x0000025853764340>, 17, 'casemiro')]
+09:33:45 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback tuple index out of range <class 'IndexError'> <traceback object at 0x000001466D6CE280>
+09:34:09 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback tuple index out of range <class 'IndexError'> <traceback object at 0x0000017BCD21E700>
+09:34:18 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback tuple index out of range <class 'IndexError'> <traceback object at 0x000001FA0EC1E6C0>
+09:35:20 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback tuple index out of range <class 'IndexError'> <traceback object at 0x00000213A351E480>
+10:55:30 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback duplicate key value violates unique constraint "oficina3_pkey"
+DETAIL:  Key (no_id)=(3158144381301) already exists.
+ <class 'psycopg2.errors.UniqueViolation'> <traceback object at 0x0000015483A2AB40>
+10:55:38 AM: ERROR [CursorDelPool.py:18] Ocurrió una excepción, se hizo rollback duplicate key value violates unique constraint "oficina3_pkey"
+DETAIL:  Key (no_id)=(3158144381302) already exists.
+ <class 'psycopg2.errors.UniqueViolation'> <traceback object at 0x0000015483A2AB40>
